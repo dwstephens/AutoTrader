@@ -69,7 +69,7 @@ setuptools.setup(
     keywords=["algotrading", "finance", "crypto", "forex", "python"],
     package_dir={"": "."},
     packages=setuptools.find_packages(where="."),
-    python_requires=">=3.11",
+    python_requires=">=3.10",
     install_requires=[
         "numpy >= 1.20.3",
         "pandas >= 1.3.4",
